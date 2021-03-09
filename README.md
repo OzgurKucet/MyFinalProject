@@ -1,2 +1,2 @@
 # MyFinalProject
-Engin Demirog 
+Engin Demirog Yazılım Geliştirici Kampı
