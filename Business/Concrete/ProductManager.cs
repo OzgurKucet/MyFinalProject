@@ -40,10 +40,10 @@ namespace Business.Concrete
 
             //return _productDal.GetAll();
             //liste döndürmem normal ama birde data döndürmeliyim.
-            if(DateTime.Now.Hour == 22)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
-            }
+            //if(DateTime.Now.Hour == 22)
+            //{
+            //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            //}
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductsListed);
         }
 
